@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_admins.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_documents.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_mrfs.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_sessions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_settings.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_users.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_workshops.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../../../../../home/sql/python_rostelecom_workshop_bot_public_workshops_on_check.sql" dialect="PostgreSQL" />
+  </component>
+</project>

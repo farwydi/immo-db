@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="content@localhost" group="contents" uuid="0d2ea764-fe18-4ebe-9e9a-2279b9cd2d3c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="default@vps6079.mtu.immo" uuid="38caede5-5bd2-48d7-841c-22be886810ab">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps6079.mtu.immo:8123/default</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="6a09e272-9d6b-46c9-a067-d7f769c60a14">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://localhost:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="identifier.sqlite" uuid="f002ca17-1dc0-4a4e-a7db-c6fa867335a1">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="BILLING uzmobile@vps8207.mtu.immo" group="billing" uuid="f7a0ea49-54d3-4034-b0a3-df463dca3751">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8207.mtu.immo:5432/uzmobile</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps3216.mtu.immo" group="contents" uuid="db706bee-63bb-43f4-9284-df46740e1167">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3216.mtu.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jaeger_v1_dc1@vps7102.mtu.immo" uuid="09a1345d-3965-4216-99ef-72c0d37d3696">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://vps7102.mtu.immo:9042/jaeger_v1_dc1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="unifan@vps7186.mtu.immo" uuid="572ea6e3-c921-4a12-914e-245ebcc8a501">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7186.mtu.immo:5432/unifan</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating@vps2615.by.immo" uuid="2ffbf656-1547-421a-a9e3-6ea5c7c6547a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2615.by.immo:5432/dating</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="scheduler@vps8035.mtu.immo" uuid="6f8f9e71-522b-4760-ab1f-7f2ff6fbb244">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/scheduler</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps8216.mtu.immo" group="contents" uuid="dcc21c7a-b380-4023-8df2-9c1d15224290">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8216.mtu.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="BILLING mobiuz@vps8158.mtu.immo" group="billing" uuid="06906a79-41a7-48bf-b38c-ae4a4e9abc90">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8158.mtu.immo:5432/mobiuz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="BILLING billing_ucelluz@vps7008.mtu.immo" group="billing" uuid="7952192b-756b-4644-84cb-e0b793ee4dcd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7008.mtu.immo:5432/billing_ucelluz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps2679.by.immo" group="contents" uuid="d68dd1bf-edcd-4621-98bd-4b4b64903394">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2679.by.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="global_references@vps250.mtu.immo" uuid="f1996ee1-57f9-4418-bf97-b56a3fb42fc3">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://vps250.mtu.immo:3306/global_references</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="BILLING mobiuz@vps8104.mtu.immo" group="billing" uuid="d406d15b-d813-4e63-84c5-0f1e5c7bb114">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8104.mtu.immo:5432/mobiuz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_velcom_games_by@vps3130.mtu.immo" uuid="51f5c549-f623-4e0b-b076-b8993b2481b9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3130.mtu.immo:5432/cms2_velcom_games_by</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2-meta@vps8170.mtu.immo" uuid="7d2f9472-dca7-40ca-8d6f-409b01f1c40b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8170.mtu.immo:5432/cms2-meta</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@165.22.197.139" uuid="4ce7d905-6b1a-4ef2-9d51-24e222bb9fd2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://165.22.197.139:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="207039aa-5264-4f2f-aca6-a8f1e83dd000">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@192.168.10.101" uuid="228c7869-cbef-4baa-b702-61899c455fee">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://192.168.10.101:9042</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@192.168.99.101" uuid="b236b0ef-3675-4cc5-b8de-d7cd3a4a406c">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://192.168.99.101:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="naf@vps8035.mtu.immo" group="naked" uuid="7ff36d65-99a9-4bb9-b1bb-747d31fe1f0f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/naf</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost [2]" uuid="8a95da86-ffcc-4810-a5d2-02e74083178d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost [3]" uuid="1db21f4c-e545-40d6-b19b-7d3c15d6262f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="meta_pg_pool@vps8170.mtu.immo" group="interactive" uuid="0d15817a-9db3-4cfd-ab55-46b641b74c5f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8170.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_smart_book@vps2634.by.immo" group="smartbook" uuid="48991654-1971-4fb5-90f7-7f0ff73090ec">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2634.by.immo:5432/cms2_smart_book</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="fat@cmsdb.immo" group="interactive" uuid="325f6287-8d35-4c84-a0ce-0ff1b017e51e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://cmsdb.immo:5432/fat</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_kievstar_music_ua" group="interactive" uuid="33cf9b7a-9bdc-4073-9527-0e448a3c5b88">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3129.mtu.immo:5432/cms2_kievstar_music_ua</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_kievstar_music_ua@vps3131.mtu.immo" group="interactive" uuid="a25e5de5-5c0c-47a4-a54a-c1b833cba7e0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3131.mtu.immo:5432/cms2_kievstar_music_ua</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="meta_master1@vps8185.mtu.immo" group="interactive" uuid="de08562c-0535-471d-bb05-a1d2c80166d2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8185.mtu.immo:5432/cms2-meta</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="interactiv@vps3129.mtu.immo" group="interactive" uuid="aeac0244-f6fe-4bf5-9aa3-443823d3b0cc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3129.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_music_by@vps2634.by.immo" group="interactive" uuid="e633df8a-5d09-4cff-8511-f5523c1b5ccf">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2634.by.immo:5432/cms2_music_by</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cpa_universal@vps2209.mtu.immo" group="interactive" uuid="f0a163ff-8a33-4e1b-8117-f8f0dfbea6b2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2209.mtu.immo:5432/cpa_universal</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="tele2-erotica" group="interactive" uuid="1553e550-4ba2-4c3f-9810-d3b823ee94d5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2634.by.immo:5432/tele2-erotica</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@vps6079.mtu.immo" group="contents" uuid="d5f06d61-4298-4e9f-a45a-6a202d531826">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps6079.mtu.immo:8123</jdbc-url>
+      <driver-properties>
+        <property name="use_time_zone" value="UTC+3" />
+        <property name="use_server_time_zone" value="false" />
+        <property name="socket_timeout" value="300000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@vps2197.mtu.immo" group="ch" uuid="a1176f8b-e453-467a-a327-760ba854186a">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps2197.mtu.immo:8123</jdbc-url>
+      <driver-properties>
+        <property name="socket_timeout" value="300000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@vps1688.uz.immo" group="ch" uuid="3a2b7df4-cf36-4573-ad92-e22d3ed80f3e">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps1688.uz.immo:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@vps2672.by.immo" group="ch" uuid="ee51c431-f1fd-4313-bc83-87a28b9dfe19">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps2672.by.immo:8123/</jdbc-url>
+      <driver-properties>
+        <property name="use_time_zone" value="UTC+3" />
+        <property name="use_server_time_zone" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps8216.mtu.immo [TEST]" group="contents" uuid="5bd7db85-be15-4647-9c08-c3a0f5e37863">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8216.mtu.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="vps7008.mtu.immo" group="contents" uuid="9ff50ef7-3ec1-4c5c-9edc-d98bb356e402">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7008.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="pbr-wserv-rv@vps8094.mtu.immo" group="contents" uuid="de79754f-dcd2-48f8-865f-e960911cc6d9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8094.mtu.immo:5432/pbr-wserv-rv</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating_ru@vps3144.mtu.immo" group="dating" uuid="c8ebf351-6aae-49f0-8b44-55000e3ce0f8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3144.mtu.immo:5432/dating_ru</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating@vps2615.by.immo [2]" group="dating" uuid="52e50b55-399f-4753-8182-e880af8ae094">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2615.by.immo:5432/dating</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating@vps8118.mtu.immo" group="dating" uuid="cd019f4e-011e-4df3-8890-a2a1dc268415">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8118.mtu.immo:5432/dating</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating@vps3144.mtu.immo" group="dating" uuid="1123a72c-fa20-4251-adfd-957ed63c2903">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3144.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating_ru@vps3144.mtu.immo [2]" group="dating" uuid="30932512-b740-4d9c-b24e-a2d65013cb81">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3144.mtu.immo:5432/dating_ru</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating_uz@vps8118.mtu.immo" group="dating" uuid="dfabd1d9-c22c-4037-ada0-8ae680c18a09">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8118.mtu.immo:5432/dating_uz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="runiverse@vps6055.mtu.immo" group="immo" uuid="f3c30f03-6563-48ff-9f7a-4ac661ff3126">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps6055.mtu.immo:5432/runiverse</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="runiverse_rambler@vps6201.mtu.immo" group="immo" uuid="d7ed2924-8395-41af-8c8e-648f11a96bfe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps6201.mtu.immo:5432/runiverse_rambler</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps2655.by.immo (BY)" group="immo" uuid="eab80065-d5f4-4a68-8ffa-3a14a5daa14a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2655.by.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps2107.mtu.immo (RU)" group="immo" uuid="ce077752-ba37-49a9-a9ce-6200fce4f280">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2107.mtu.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps2164.mtu.immo (UA)" group="immo" uuid="c20572c4-f6ba-4354-b5be-ff642f2e3310">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2164.mtu.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps8035.mtu.immo (TEST)" group="immo" uuid="fcd57480-a557-4439-85da-b6393cb65960">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@vps8035.mtu.immo" group="test" uuid="322eb871-34de-458a-a64f-be533a68017f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test_pg_10@vps3149.mtu.immo" group="immo" uuid="e32b7a6b-af9b-45ef-a3d3-a81608c325d9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3149.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="erovideo-basket@vps2615.by.immo" group="immo" uuid="19b7ebf3-c6d7-4814-a886-3a2bcd9b629d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2615.by.immo:5432/erovideo-basket</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="runiverse_by_node@vps2621.by.immo" group="immo" uuid="0c3778fe-1978-413e-88cd-4ba44cd675a0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2621.by.immo:5432/runiverse_by_node</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="maindb1.lp-platform.by.immo" group="immo" uuid="b8e6d406-b5ba-42ff-8b87-3ad7ee5f367c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://maindb1.lp-platform.by.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="maindb2.lp-platform.by.immo" group="immo" uuid="53e046f8-d447-4b3c-b20d-360daf958978">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://maindb2.lp-platform.by.immo:5432/postgres</jdbc-url>
+      <vm-options>-Duser.timezone=UTC+3</vm-options>
+    </data-source>
+    <data-source source="LOCAL" name="clickhouse.lp-platform.by.immo" group="immo" uuid="0b53e774-c544-4efa-bb9c-f46bbd8c646f">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://10.128.193.227:8123</jdbc-url>
+      <driver-properties>
+        <property name="use_server_time_zone" value="false" />
+        <property name="use_time_zone" value="UTC+3" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="localhost_CH" group="immo" uuid="13834709-eb2c-460b-83d1-919e8079e0a8">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://10.192.162.28:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ports@vps7191.mtu.immo" group="immo" uuid="223334e3-74ae-4faa-bedb-a2bfc9bbff1f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7191.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="platform@vps134.mtu.immo" group="immo" uuid="76118de7-b16d-42e9-872b-cdb205b56a5e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps134.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sifon@vps2209.mtu.immo" group="immo" uuid="1dca75fe-83d1-488a-9d18-d73ad40acd94">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2209.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="naf@vps3084.mtu.immo" group="immo" uuid="b68fd392-bfc0-45a7-8e99-4657ad68a7f7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3084.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@vps6192.mtu.immo" group="immo" uuid="aa758367-4597-4fe0-b143-ab41304add60">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps6192.mtu.immo:8123</jdbc-url>
+      <driver-properties>
+        <property name="dataTransferTimeout" value="100000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="naf@vps3084.mtu.immo [2]" group="immo" uuid="4701b071-05a1-4cac-b94b-db97928ffa97">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3084.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mydb@185.183.243.143" group="immo" uuid="626d8a3d-c24f-48d6-9c98-14f5fa0d2cda">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://185.183.243.143:5432/mydb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="storage@vps1686.uz.immo" group="immo" uuid="fe8f2f72-da27-4105-b0c2-7d2298b91e94">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps1686.uz.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps2164.mtu.immo (UZ-BEEL)" group="immo" uuid="83e7752c-991c-40db-b814-38a125783269">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8104.mtu.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="advertising@vps8223.mtu.immo" group="immo" uuid="7a0d0758-1809-4e1f-879f-9e39f21e4fb7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8223.mtu.immo:5432/advertising</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@vps2615.by.immo" group="immo" uuid="7fd6596a-7227-48d7-aeec-16a1f8f96ba9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2615.by.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@vps2644.by.immo" group="immo" uuid="fea014a0-d45e-47e1-b85e-7160a811e02f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2644.by.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="default@vps172202110.mtu.immo" group="immo" uuid="a48fa598-3c80-498c-9727-4ac6eb89d49a">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps172202110.mtu.immo:8123/default</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test_11@vps8217.mtu.immo" group="immo" uuid="043d6589-34d5-490b-be16-2577a770b0f7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8217.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@vps7161.mtu.immo (Strofront DB 1)" group="immo" uuid="72f65d03-718e-4b28-86f0-e899a25eebdb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7161.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="erovideo-basket@vps2615.by.immo [2]" group="immo" uuid="c71aeee3-265b-4c2e-8804-ea93ba84539d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2615.by.immo:5432/erovideo-basket</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="storefront@vps6098.mtu.immo" group="immo" uuid="8efe38d6-48f7-4cde-9e8c-a3b97b84fb2d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps6098.mtu.immo:5432/storefront</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="tele2music-basket@vps8223.mtu.immo" group="immo" uuid="50537e8b-038c-4c54-8841-e0a6ff64b513">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8223.mtu.immo:5432/tele2music-basket</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="erovideo-basket@vps7188.by.immo" group="immo" uuid="d7d384ac-4748-4234-a356-c1eddfef1465">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7188.by.immo:5432/erovideo-basket</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sms-stat@vps8188.mtu.immo" group="immo" uuid="0f7af41f-204c-4ece-ab7b-c61b7ce835dc">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps8188.mtu.immo:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="lifeua@vps6227.mtu.immo" group="immo" uuid="bf00fd59-630a-4730-a9af-c467a787abbd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps6227.mtu.immo:5432/lifeua</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps2679.by.immo [2]" group="immo" uuid="30752102-fdbc-401b-8f61-ebfd1ca0a9b9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2679.by.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="content@vps1686.uz.immo" group="immo" uuid="be92dd64-e4b8-47a0-95d0-4cee1f63212d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps1686.uz.immo:5432/content</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="music@vps12615.by.immo" group="music" uuid="d90d51c2-d060-4edc-a318-4437af78f822">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps12615.by.immo:5432/music</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="default@vps172202100.mtu.immo" group="immo" uuid="914ceba2-000a-4701-bf18-9d296ebc0bd3">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps172202100.mtu.immo:8123/default</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="runiverse_rambler@vps6202.mtu.immo" group="immo" uuid="10f6034f-2893-41a2-b0a8-124c74c84f16">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps6202.mtu.immo:5432/runiverse_rambler</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@clickhouse.farwydi.ru" group="immo_root" uuid="4c730877-1756-44e9-b992-845b13e64b61">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse.farwydi.ru:80</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@docker1" group="immo_root" uuid="e875b895-c5ff-40b1-b404-ef45b2b138b6">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://172.22.7.2:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@clickhouse.farwydi.ru [2]" group="immo_root" uuid="0f4a0aa1-0bed-4505-ace1-3afd07d422e7">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://clickhouse.farwydi.ru:80</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@docker1 [2]" group="immo_root" uuid="793d8f90-11f4-4ffb-adfc-6fa8ec386c46">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://172.22.7.2:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="meta_pg_pool@vps8170.mtu.immo [2]" group="interactive" uuid="8e0a9885-94c1-4202-80f4-722397b4ab4c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8170.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="interactiv@vps3131.mtu.immo [2]" group="interactive" uuid="1ce9aebc-7505-47c3-85e8-06396e69e7b8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3131.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="fat@cmsdb.immo [2]" group="interactive" uuid="50ba98d0-1c2b-47f9-bb64-7b9afd7a642e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://cmsdb.immo:5432/fat</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2-t2kz-musicsubs" group="interactive" uuid="933b26b1-6bbd-4af2-9dbc-8bb0a278e7c6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3131.mtu.immo:5432/cms2-t2kz-musicsubs</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_kievstar_music_ua@vps3131.mtu.immo [2]" group="interactive" uuid="b6b287ee-1329-434c-91b7-ef2070f8f230">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3131.mtu.immo:5432/cms2_kievstar_music_ua</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="meta_master1@vps8185.mtu.immo [2]" group="interactive" uuid="81a02139-249a-47e9-9dc4-4cf3e21e3b81">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8185.mtu.immo:5432/cms2-meta</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="interactiv@vps3129.mtu.immo [2]" group="interactive" uuid="5a0a9c73-e788-4ed3-9cb0-4fe39cdcaa65">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3129.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_music_by@vps2634.by.immo [2]" group="interactive" uuid="f48a73e1-cf6c-4a67-bc79-a0789b07c847">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2634.by.immo:5432/cms2_music_by</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cpa_universal@vps2209.mtu.immo [2]" group="interactive" uuid="85924188-ce55-486c-b846-20516993ec8d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2209.mtu.immo:5432/cpa_universal</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating_ru@localhost" uuid="7968d871-130e-41bc-9813-7a62282057f5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5431/dating_ru</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@vps2209.mtu.immo" group="immo" uuid="0218c0e9-0a39-4f2b-a798-9303dd260afd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2209.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test@vps8035.mtu.immo" group="immo" uuid="986b6c8e-b13b-4a6e-a392-3013cd17821c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="interactiv@vps7144.mtu.immo" group="interactive" uuid="3ea68453-c344-4b7d-8203-fd852f25ee1a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps7144.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="naf@vps3187.mtu.immo" group="naked" uuid="f26ae822-4847-4334-8b5f-6e03c7017f9a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3187.mtu.immo:5432/naf</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms-b3w@vps2242.mtu.immo" group="cms-b3w" uuid="c3828051-83fd-4855-b7ee-90e28d6225f2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2242.mtu.immo:5432/cms-b3w</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="dating_za@vps2005.mtu.immo" group="dating" uuid="56cefccd-f072-4a8a-8237-c04912abf2cd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2005.mtu.immo:5432/dating_za</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_smart_book@vps3129.mtu.immo" group="smartbook" uuid="1f78775c-72dc-4dd6-9358-36d52a8fb139">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3129.mtu.immo:5432/cms2_smart_book</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ins@vps8035.mtu.immo" group="test" uuid="04fdcea3-d9f7-4a55-abfc-8a5caf6fedf0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/ins</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="vps2197.mtu.immo" group="immo" uuid="09bf6e13-9d68-4294-822a-1c89ac70fb05">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps2197.mtu.immo:8123/default</jdbc-url>
+      <driver-properties>
+        <property name="dataTransferTimeout" value="100000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="vps@vps8035.mtu.immo" group="test" uuid="62d29a72-31c7-46c3-8c91-f8b8ebab9b06">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8035.mtu.immo:5432/vps</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ins@vps8216.mtu.immo" group="test" uuid="604cc20a-a547-489f-a491-6dccfa977c11">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps8216.mtu.immo:5432/ins</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="interactiv@vps3130.mtu.immo" group="interactive" uuid="c1348ef5-80bf-4c5c-b6bb-93982251a4e7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3130.mtu.immo:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@vps2672.by.immo" group="contents" uuid="a98c5230-6586-455e-9f82-29ff94a87493">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://vps2672.by.immo:8123/default</jdbc-url>
+      <driver-properties>
+        <property name="use_time_zone" value="UTC+3" />
+        <property name="use_server_time_zone" value="false" />
+        <property name="socket_timeout" value="300000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="smartbook@vps3187.mtu.immo" group="smartbook" uuid="96e5923a-50e7-4a9b-9bf5-ab491442e8a6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3187.mtu.immo:5432/smartbook</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="smartbook@vps2680.by.immo" group="smartbook" uuid="31f94d93-423f-4f08-8f04-86998d3714dd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps2680.by.immo:5432/smartbook</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cms2_velcom_games_by@vps3131.mtu.immo" group="interactive" uuid="b1766edb-1e0f-48dc-80bb-40709369e995">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vps3131.mtu.immo:5432/cms2_velcom_games_by</jdbc-url>
+    </data-source>
+  </component>
+</project>
